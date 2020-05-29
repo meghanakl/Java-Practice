@@ -5,7 +5,7 @@ public abstract class shape {
 	
 	
 public  abstract int calculateArea(int a);
-
+  
 
 	
 }
