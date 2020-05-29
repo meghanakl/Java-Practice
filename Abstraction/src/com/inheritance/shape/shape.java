@@ -1,5 +1,11 @@
 package com.inheritance.shape;
 
-public class shape {
+public abstract class shape {
+	
+	
+	
+public  abstract int calculateArea(int a);
 
+
+	
 }
