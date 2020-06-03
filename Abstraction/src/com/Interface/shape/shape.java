@@ -1,5 +1,6 @@
 package com.Interface.shape;
 
-public class shape {
-
+public interface shape {
+	
+	int calculateArea(int a);
 }
