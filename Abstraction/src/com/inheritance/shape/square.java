@@ -2,10 +2,13 @@ package com.inheritance.shape;
 
 public class square extends shape {
 
+	
+public double length;
 	@Override
-	public int calculateArea(int a) {
-		// TODO Auto-generated method stub
-		return 0;
+	public double calculateArea() {
+		double l = length;
+		double area = l*l;
+		return area ;
 	}
 
 	

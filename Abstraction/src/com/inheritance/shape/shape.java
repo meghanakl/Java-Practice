@@ -2,11 +2,17 @@ package com.inheritance.shape;
 
 public abstract class shape {
 	
-public void printDateTime() {
-} 
-
+public double length;
+public double width;
+public double breadth;
+public double radius;
+public double diameter;
 	
-public  abstract int calculateArea(int a);
+public void printDateTime() {
+}
+ 
+	
+public  abstract double calculateArea();
   
 
 	
