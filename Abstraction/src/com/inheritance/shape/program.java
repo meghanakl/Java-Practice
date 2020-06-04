@@ -4,7 +4,9 @@ public class program {
 
 	public static void main(String[] args) { 
 		shape s =	getShapeWithMaxArea();
-		System.out.println(s);
+		System.out.println("The maximum area contain shape is"+s);
+	    double b=s.calculateArea();
+	    System.out.println("The area of biggest shape is"+b);
 	}
 
 	public static  shape getShapeWithMaxArea() {
