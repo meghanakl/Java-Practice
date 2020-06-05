@@ -10,9 +10,9 @@ public class program {
 	}
 
 	public static  shape getShapeWithMaxArea() {
-	circle c = new circle();
-	c.radius = 10;
-	return c;
+	//circle c = new circle();
+	//c.radius = 10;
+	//return c;
 	
 		
 	//rectangle r = new rectangle();
@@ -24,6 +24,10 @@ public class program {
 	//s.length = 5;
 	//return s;
 		
+	triangle t = new triangle();
+	t.base=10;
+	t.height=10;
+	return t;
 	
 		
 	}
