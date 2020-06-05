@@ -1,7 +1,7 @@
 package com.Interface.shape;
 
 public class square implements shape {
-
+public double length;
 	
 
 	@Override
@@ -12,8 +12,9 @@ public class square implements shape {
 
 	@Override
 	public double calculateArea() {
-		// TODO Auto-generated method stub
-		return 0;
+		double l = length;
+		double area = l*l;
+		return area ;
 	}
 
 }

@@ -1,11 +1,14 @@
 package com.Interface.shape;
 
 public class rectangle implements shape{
-
+public double length;
+public double width;;
 	@Override
 	public double calculateArea() {
-		// TODO Auto-generated method stub
-		return 0;
+		double l = length;
+		   double w = width;
+		   double area = l*w;
+		return area ;
 	}
 
 	@Override
