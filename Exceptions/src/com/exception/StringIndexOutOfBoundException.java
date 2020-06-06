@@ -12,4 +12,4 @@ public class StringIndexOutOfBoundException {
 	            System.out.println("StringIndexOutOfBoundsException"); 
 	        } 
 	    } 
-	}  	            
+	}  	               
