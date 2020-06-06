@@ -5,7 +5,7 @@ public class StringIndexOutOfBoundException {
 	    { 
 	        try { 
 	            String a = "Meghana is good girl "; 
-	            char c = a.charAt(28);
+	            char c = a.charAt(28);  
 	            System.out.println(c); 
 	        } 
 	        catch(StringIndexOutOfBoundsException e) { 
@@ -14,4 +14,4 @@ public class StringIndexOutOfBoundException {
 	    } 
 	} 
 
-	
+	     
