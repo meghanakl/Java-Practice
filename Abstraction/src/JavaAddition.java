@@ -5,13 +5,12 @@ public class JavaAddition {
 		try {
 			int num1;
 			int num2;
-           
+
 			num1 = 0;
 			num2 = 10 / num1;
-			
+
 			System.out.println(num2);
-			
-			
+
 		} // try block end
 		catch (ArithmeticException a) {
 
