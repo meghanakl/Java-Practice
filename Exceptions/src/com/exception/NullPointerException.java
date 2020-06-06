@@ -12,4 +12,4 @@ public class NullPointerException {
 			System.out.println("NullPointerException");
 		}
 	}
-}      
+}             
