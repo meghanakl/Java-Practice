@@ -3,11 +3,16 @@ package com.inheritance.shape;
 public class program {
 
 	public static void main(String[] args) { 
+		
+	
 		shape s =	getShapeWithMaxArea();
 		System.out.println("The maximum area contain shape is "+s);
 	    double b=s.calculateArea();
 	    System.out.println("The area of biggest shape is "+b);
+		
 	}
+	
+
 
 	public static  shape getShapeWithMaxArea() {
 	//circle c = new circle();
@@ -28,8 +33,11 @@ public class program {
 	t.base=10;
 	t.height=10;
 	return t;
+	}
 	
 		
 	}
-	}
+	
+		
+	
 
