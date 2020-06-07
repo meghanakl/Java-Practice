@@ -31,10 +31,7 @@ public class triangle extends shape {
 				return area;
 		//		System.out.println("after finally");	
 	}
-	public void printDateTime() 
-	{
 	
-	}
 
 }
 

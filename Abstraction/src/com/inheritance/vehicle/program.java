@@ -6,7 +6,7 @@ public class program {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
- start();
+      start();
 
 	}
 	 public static void start() {
