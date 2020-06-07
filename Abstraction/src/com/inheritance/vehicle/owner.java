@@ -12,7 +12,9 @@ public class owner {
 	
 	public vehicle  getFavVehicle() {
 		bike b = new bike();
-		return b;
+		
+	b.RegistrationNumber ="KA 18 F670";
+	return b;
 	}
 }
 

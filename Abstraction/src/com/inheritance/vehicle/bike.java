@@ -1,7 +1,9 @@
 package com.inheritance.vehicle;
 
 public class bike extends vehicle {
-
+	public bike() {
+		 this.type="bike";
+				 }
 	@Override
 	public void start() {
 		// TODO Auto-generated method stub
@@ -9,7 +11,7 @@ public class bike extends vehicle {
 	}
 	@Override
 	public void washTheVehicle() {
-		System.out.println("Wasing with water and soap with towel");
+		System.out.println(" Bike washing:Wasing with water and soap with towel");
 	}
 	
 }

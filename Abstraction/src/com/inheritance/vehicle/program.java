@@ -8,6 +8,8 @@ public class program {
 		// TODO Auto-generated method stub
      
 	vehicle v =	getFavVehicleOfCurrentOwner();
+	System.out.println("Fav vehicle is "+v.type);
+	System.out.println("registration no."+v.RegistrationNumber);
 	v.washTheVehicle();
 	v.start();
 	}
@@ -16,7 +18,7 @@ public class program {
 		 return o.getFavVehicle();
 		 
 		 
-		 //car c = new car();
+	    //car c = new car();
 		// c.start();
 		
 		// bus b = new bus();
