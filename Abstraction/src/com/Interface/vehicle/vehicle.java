@@ -1,5 +1,7 @@
-package com.Interface.vehicle;
+ package com.Interface.vehicle;
 
-public class vehicle {
-
+public class vehicle 
+{
+	
+	
 }
