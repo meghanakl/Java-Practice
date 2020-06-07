@@ -18,10 +18,10 @@ public class program {
 		 return o.getFavVehicle();
 		 
 		 
-	    //car c = new car();
-		// c.start();
+	     //car c = new car();
+		 // c.start();
 		
-		// bus b = new bus();
+		 // bus b = new bus();
 		// b.start();
 	
 		// bike k = new bike();

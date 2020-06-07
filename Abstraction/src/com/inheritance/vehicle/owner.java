@@ -9,12 +9,11 @@ public class owner {
     this.Name = ownerName;
     }
 	
-	
 	public vehicle  getFavVehicle() {
-		bike b = new bike();
+	Helicopter h = new Helicopter();
 		
-	b.RegistrationNumber ="KA 18 F670";
-	return b;
+	h.RegistrationNumber ="KA 18 F670";
+	return h;
 	}
 }
 
