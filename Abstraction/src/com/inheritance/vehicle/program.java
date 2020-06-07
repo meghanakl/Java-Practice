@@ -6,17 +6,23 @@ public class program {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-      start();
-
+     
+	vehicle v =	getFavVehicleOfCurrentOwner();
+	v.washTheVehicle();
+	v.start();
 	}
-	 public static void start() {
-		 car c = new car();
-		 c.start();
+	 public static vehicle getFavVehicleOfCurrentOwner() {
+		 owner o = new owner("Meghana");
+		 return o.getFavVehicle();
+		 
+		 
+		 //car c = new car();
+		// c.start();
 		
-		 bus b = new bus();
-		 b.start();
+		// bus b = new bus();
+		// b.start();
 	
-		 bike k = new bike();
-		 k.start();
+		// bike k = new bike();
+		// k.start();
 	}
 }

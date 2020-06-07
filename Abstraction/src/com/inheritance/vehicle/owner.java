@@ -8,4 +8,12 @@ public class owner {
 	{
     this.Name = ownerName;
     }
+	
+	
+	public vehicle  getFavVehicle() {
+		bike b = new bike();
+		return b;
+	}
 }
+
+ 
