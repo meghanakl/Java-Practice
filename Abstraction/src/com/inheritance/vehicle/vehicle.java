@@ -1,7 +1,8 @@
 package com.inheritance.vehicle;
 
-public class vehicle {
-
+public abstract class vehicle 
+{
+	public abstract void start() ;
+	
 
 }
-   

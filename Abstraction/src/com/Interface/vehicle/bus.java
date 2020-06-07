@@ -1,6 +1,6 @@
 package com.Interface.vehicle;
 
-public class bus {
+public class bus extends vehicle{
 
 
 }

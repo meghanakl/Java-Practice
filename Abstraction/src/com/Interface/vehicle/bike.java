@@ -1,6 +1,6 @@
 package com.Interface.vehicle;
 
-public class bike {
+public class bike extends vehicle{
 
 
 }      
