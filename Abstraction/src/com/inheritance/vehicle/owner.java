@@ -11,7 +11,7 @@ public class owner {
 	
 	public vehicle  getFavVehicle() {
 	Helicopter h = new Helicopter();
-		
+		 
 	h.RegistrationNumber ="KA 18 F670";
 	return h;
 	}
