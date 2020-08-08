@@ -21,4 +21,4 @@ public class EvenOrOddCheck {
 			System.out.println("The given " + a + " number is odd");
 		}
 	}
-}
+} 
