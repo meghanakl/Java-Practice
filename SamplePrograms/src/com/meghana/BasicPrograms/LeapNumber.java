@@ -20,6 +20,6 @@ public class LeapNumber {
 			System.out.println("The given " + number + " is not a leap number");
 
 		}
-	}
+	} 
 	
 }
