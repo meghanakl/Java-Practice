@@ -19,7 +19,7 @@ public class objectCountMain {
 		System.out.println("size of the object is"+o3.size);
 		System.out.println("Name of the object is"+o3.Name);
 		System.out.println("Number of object created is"+o3.NoOfObjectsCreated);
-		
+		 
 
 		System.out.println("Number of object created is " + o1.NoOfObjectsCreated);
    	    System.out.println("Number of object created is " + o2.NoOfObjectsCreated);
