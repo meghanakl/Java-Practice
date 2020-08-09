@@ -27,5 +27,5 @@ public class LeapNumber {
 		}
 		return leapyear;
 		
-	}
+	}  
 }
