@@ -9,7 +9,7 @@ public class LeapNumber {
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the number");
-		int a = s.nextInt();
+		int a = s.nextInt(); 
 		CheckLeapNumber(a);
 		
 	}
