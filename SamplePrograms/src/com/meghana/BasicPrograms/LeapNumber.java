@@ -10,18 +10,22 @@ public class LeapNumber {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the number");
 		int a = s.nextInt();
-		 CheckLeapNumber(a);
+		CheckLeapNumber(a);
+		
 	}
 
-	public static void CheckLeapNumber(int number) {
-		if (number % 100 == 0 && number % 400 == 0) {
-			System.out.println("The given " + number + " is leap number");
-		} else {
-			System.out.println("The given " + number + " is not a leap number");
+	public static boolean CheckLeapNumber(int number) {
+		boolean leapyear = false;
+		if (number % 100 == 0 && number % 400 == 0) 
+		{
+			leapyear = true;
 
+		} else if (number % 4 == 0 && number % 100 != 0) 
+		{
+
+			leapyear = true;
 		}
-	} 
-	
-	
-	
+		return leapyear;
+		
+	}
 }
