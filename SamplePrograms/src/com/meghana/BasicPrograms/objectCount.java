@@ -4,7 +4,7 @@ public class objectCount {
 
 	public static  int NoOfObjectsCreated=124;
 	public String Name;
-	public  int size=0;
+	public int size=0;
 
 	public objectCount(String N) {
 		int n=0;
