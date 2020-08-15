@@ -1,8 +1,10 @@
 package com.meghana.BasicPrograms;
 
-public class objectCountMain {
+public class objectCountMain
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		objectCount o1 = new objectCount("o1");
 		o1.size = 124;
 		System.out.println("Name of the object is" + o1.Name);
