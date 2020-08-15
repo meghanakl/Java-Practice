@@ -34,4 +34,5 @@ public class objectCountMain
 		System.out.println(o1.GetANumber());
 
 	}
+	
 }
