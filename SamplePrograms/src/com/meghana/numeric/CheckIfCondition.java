@@ -3,19 +3,19 @@ package com.meghana.numeric;
 public class CheckIfCondition {
 
 	public static void main(String[] args) {
+		int a=10;
+		
+		
 
-		if (true) 
+		if (a%2==0) 
 		{
-			System.out.println("hello");
+			System.out.println("if excecuted even");   //
 		}
 
-		else if (false) 
+		else
 		{
-			System.out.println("Hai");
+			System.out.println("else if excecuted odd");
 		} 
-		else 
-		{
-			System.out.println("Bai");
-		}
+		
 	}
 }
