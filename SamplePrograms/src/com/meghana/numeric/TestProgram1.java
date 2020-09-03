@@ -2,8 +2,8 @@ package com.meghana.numeric;
 
 public class TestProgram1 {
 	
-	     int age = 5;
-	    protected int y= 7; 
+	  protected  int age = 5;
+	    public int y= 7; 
 	
 	  
 	

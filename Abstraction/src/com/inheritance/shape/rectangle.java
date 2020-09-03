@@ -12,7 +12,7 @@ public class rectangle extends shape {
 		   double area = l*w;
 		return area ;
 		
-		// TODO Auto-generated method stub
+		
 		
 	}
 

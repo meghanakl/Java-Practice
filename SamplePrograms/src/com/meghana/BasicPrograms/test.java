@@ -12,9 +12,7 @@ public class test{
 
 		TestProgram1 t2 = new Test5();
 		t2.Display();
-		
-		Test5 t9= new TestProgram1();//child not hold parent
-		t9.Display();                // not possible
+		    // not possible
 		
 		// TODO Auto-generated method stub
      //  Test5 r = new Test5();

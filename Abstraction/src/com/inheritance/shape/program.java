@@ -1,7 +1,7 @@
 package com.inheritance.shape;
 
 public class program {
-
+	
 	
 		public static void main(String[] args) { 
 			
@@ -9,10 +9,9 @@ public class program {
 	
 	    double b=s.calculateArea();
 	    System.out.println("The area of biggest shape is "+b);
+		}
 	
-	}
-	
-	public static  shape getShapeWithMaxArea() {
+		public static  shape getShapeWithMaxArea() {
 	//circle c = new circle();
 	//c.radius = 0;
 	//return c;
@@ -35,7 +34,5 @@ public class program {
 	
 		
 	}
-	
-		
-	
+
 

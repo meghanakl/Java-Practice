@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LeapNumber {
 
-	public static void main(String[] args) {
+	static public  void main(String[] args) {
 
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
