@@ -1,6 +1,6 @@
 package com.meghana.BasicPrograms;
 
-public class Parent implements talk {
+public class Parent implements Talk {
 
 	//public static void main(String[] args) {
 		// TODO Auto-generated method stub

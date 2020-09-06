@@ -1,6 +1,6 @@
 package com.meghana.BasicPrograms;
 
-public abstract class Student implements talk {
+public abstract class Student implements Talk {
 	int	id 	;
 	String name;
 	String branch;

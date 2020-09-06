@@ -1,6 +1,6 @@
 package com.meghana.BasicPrograms;
 
-public class Teacher  implements talk{
+public class Teacher  implements Talk{
 
 	@Override
 	public void talkfast() {

@@ -12,7 +12,7 @@ public class GenericStudent {
 		ArrayList<Student> studentList = new ArrayList<Student>(); // generic
 		studentList.add(s);
 		studentList.add(s1);
-		// this gives error because we cannot insert different type in generic//
+	    // this gives error because we cannot insert different type in generic//
         //studentList.add("narve");//
 		studentList.add(s2);
 		studentList.add(s3);

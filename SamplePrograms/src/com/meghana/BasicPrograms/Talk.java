@@ -1,6 +1,6 @@
 package com.meghana.BasicPrograms;
 
-public interface talk {
+public interface Talk {
 	public void  talkfast();
 	public void talkslow();
 
