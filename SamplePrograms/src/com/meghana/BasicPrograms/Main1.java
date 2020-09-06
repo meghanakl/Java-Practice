@@ -20,7 +20,7 @@ public class Main1 {
        talkerList.get(i);
        System.out.println(i);
        talk  t = (talk) talkerList.get(i);
-	System.out.println(t.talkfast());
+	System.out.println("fast"+ t.talkfast());
 	System.out.println(t.talkslow());
 }
 	

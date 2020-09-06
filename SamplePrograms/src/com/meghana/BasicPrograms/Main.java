@@ -8,8 +8,7 @@ public class Main {// generic example is a
 
 		Student s = new Student(1, "mega", "phy");
 		Student s1 = new Student(2, "ega", "math");
-
-		Student s2 = new Student(3, "ga", "soc");
+        Student s2 = new Student(3, "ga", "soc");
 		Student s3 = new Student(4, "a", "kan");
 
 		ArrayList studentList = new ArrayList(); // collection, ///<> is only for (geniic one type matra hakodh)
