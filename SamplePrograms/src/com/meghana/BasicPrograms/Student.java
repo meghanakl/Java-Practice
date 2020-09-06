@@ -1,16 +1,29 @@
 package com.meghana.BasicPrograms;
 
-public class Student {
-
-int	id 	;
-String name;
-String branch;
-
-
-  public Student(int id,String name,String branch) {
+public abstract class Student implements talk {
+	int	id 	;
+	String name;
+	String branch;
+	
+	
+	public Student(int id,String name,String branch) {
 	  this.id= id;
-      this.name=name;
-      this.branch=branch;
+	     this.name=name;
+	    this.branch=branch;
+
+	}
+  	
+public abstract double calcualteFee();
+
+//	 public Student(int id,String name,String branch) {
+	//  this.id= id;
+ //     this.name=name;
+   //   this.branch=branch;
+   
+
+
+      
+      
         
 }
-}
+
