@@ -1,5 +1,28 @@
 package com.BasicJava;
 
+import java.util.Scanner;
+
 public class Addition {
+
+	public static void main(String[] args) {
+
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the first number");
+		int a = s.nextInt();
+
+		System.out.println("Enter the second number");
+		int b = s.nextInt();
+
+		System.out.println("Enter the third number");
+		int c = s.nextInt();
+
+		AddGivenNumbers(a, b, c);
+	}
+
+	public static void AddGivenNumbers(int a, int b, int c) {
+
+		int Sum = a + b + c;
+		System.out.println("Sum of the given numbers is " + Sum);
+	}
 
 }
